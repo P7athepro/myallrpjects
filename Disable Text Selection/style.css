@@ -1,0 +1,16 @@
+* {
+  padding: 10px;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  line-height: 2;
+}
+h1 {
+  color: #6b72e7;
+}
+p {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
