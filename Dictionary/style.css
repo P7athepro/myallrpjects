@@ -98,3 +98,9 @@ color: white;
     font-size: 20px;
 
 }
+i{
+    cursor: pointer;
+}
+i:hover{
+   color: royalblue;
+}
