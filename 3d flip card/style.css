@@ -97,10 +97,12 @@
     transform: translateY(-10px);
     background-color: var(--white-shade-1);
     color: var(--theme-color-1);
+    transition: .7s;
   }
   .card:hover .back {
     transform: rotateY(0deg);
   }
   .card:hover .front {
+  
     transform: rotateY(-180deg);
   }
