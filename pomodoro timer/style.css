@@ -13,7 +13,7 @@ body {
   height: 100vh;
   padding: 35px;
 
-  background: rgb(243, 243, 243);
+  background: rgb(125, 213, 216);
   color: #131313;
   font-family: "Montserrat", sans-serif;
 }
@@ -22,6 +22,7 @@ h1 {
   font-weight: 900;
   font-size: 28px;
   text-align: center;
+  color: white;
 }
 input {
   transition: 0.5s ease-in-out;
@@ -69,34 +70,35 @@ form button {
 }
 .start:hover{
   transition: .6s;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .break {
   background: rgb(0, 199, 116);
-  color: #000000;
+  color: white;
   cursor: pointer;
 }
 .break:hover{
   transition: .6s;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .reset {
   background: rgb(250, 69, 109);
-  color: #000000;
+  color: white;
   cursor: pointer;
 }
 .reset:hover{
   transition: .6s;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .pause {
   background: rgb(253, 143, 17);
   cursor: pointer;
+  color: white;
 }
 .pause:hover{
   transition: .6s;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .resume {
   background: rgb(131, 10, 252);
@@ -105,7 +107,7 @@ form button {
 }
 .resume:hover{
   transition: .6s;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .clock {
   padding: 3px;
@@ -116,6 +118,7 @@ form button {
   font-weight: bold;
   height: 30%;
   font-size: 24px;
+  color: white;
 }
 .progress-ring {
   position: absolute;
@@ -128,7 +131,7 @@ form button {
   transition: 0.5s;
   transform: rotate(-90deg);
   transform-origin: 50% 50%;
-  stroke: rgb(51, 65, 255);
+  stroke: white;
 }
 
 footer {
@@ -136,7 +139,9 @@ footer {
   bottom: 4px;
   text-align: center;
   width: 80%;
+  font-size: 20px;
   margin: 0 auto;
+  color: white;
 }
 
 .danger {
@@ -203,5 +208,21 @@ footer {
 }
 .d:hover{
   transition: .6s;
-  border-radius: 10px;
+  border-radius: 20px;
+}
+.fandbtime{
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+#focusTime{
+  color: white;
+  outline-color: white;
+  border-radius: 50px;
+  
+}
+#breakTime{
+  color: white;
+  outline-color: white;
+  border-radius: 50px;
 }

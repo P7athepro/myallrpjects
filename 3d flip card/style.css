@@ -21,6 +21,7 @@
     top: 45%;
     left: 50%;
     perspective: 800px;
+    -webkit-box-reflect: below 4px linear-gradient(transparent 30%, rgba(0,0,0,0.35));
   }
   .container:before {
     content: "";
@@ -97,7 +98,7 @@
     transform: translateY(-10px);
     background-color: var(--white-shade-1);
     color: var(--theme-color-1);
-    transition: .7s;
+    transition: .6s;
   }
   .card:hover .back {
     transform: rotateY(0deg);

@@ -18,6 +18,10 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease;
+  transform: translate(-50%,-50%);
+  top: 30%;
+  left: 50%;
+  -webkit-box-reflect: below 4px linear-gradient(transparent 30%, rgba(0,0,0,0.35));
 }
 .select-box{
   background: #fff;

@@ -19,6 +19,7 @@ body {
     padding: 80px 50px;
     border-radius: 10px;
     box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+    -webkit-box-reflect: below 4px linear-gradient(transparent 30%, rgba(0,0,0,0.35));
 }
 .search-box {
     width: 100%;
