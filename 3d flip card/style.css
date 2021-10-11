@@ -107,3 +107,6 @@
   
     transform: rotateY(-180deg);
   }
+::selection{
+  background: rgb(123, 215, 216);
+}

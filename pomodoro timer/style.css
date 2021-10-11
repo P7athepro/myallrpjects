@@ -23,6 +23,11 @@ h1 {
   font-size: 28px;
   text-align: center;
   color: white;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 input {
   transition: 0.5s ease-in-out;
@@ -56,6 +61,10 @@ form {
   padding: 0;
   max-width: 370px;
   margin: 5px auto;
+}
+::selection{
+  background: rgb(123, 215, 216);
+  color: white;
 }
 form button {
   background: rgb(25, 67, 255);
@@ -120,6 +129,8 @@ form button {
   font-size: 24px;
   color: white;
 }
+
+
 .progress-ring {
   position: absolute;
   top: 50%;
