@@ -13,10 +13,12 @@
     <div class="clock-box">
       <div class="clock">HH : MM : SS</div>
       <div class="date">DD - MM - YYYY</div>
-    </div>
-    <br />
-    <br />
-    <br />
-    <h1 class="cool">Made by Prabhave</h1>
+    </div><div class="fd">
+    <input onchange="setAlarmTime(this.value)" name="alarmTime" type="datetime-local"></div>
+    <div class="controls">
+      <button onclick="setAlarm()" class="button set-alarm">Set alarm</button>
+      <button onclick="clearAlarm()" class="button stop-alarm">Stop alarm</button>
+  </div>
+    
   </body>
 </html>
