@@ -56,3 +56,13 @@ input:focus {
   padding-left: 0%;
   /* font-family:'Graduate', sans-serif; */
 }
+header{
+    font-family: 'Graduate', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 1%;
+}
+hr{
+    size: 2%;
+    color: white;
+}

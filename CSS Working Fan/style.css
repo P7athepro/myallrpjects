@@ -109,3 +109,6 @@ input[type="checkbox"]:checked{
 input[type="checkbox"]:checked + label{
     animation-play-state: running;
 }
+body{
+    background: rgb(125, 213, 216);
+}
